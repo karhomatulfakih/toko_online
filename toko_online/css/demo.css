@@ -1,0 +1,178 @@
+/* No CSS *//*# sourceMappingURL=demo.css.map */
+
+/* ============================================================================
+   Header
+   ============================================================================ */
+
+   header .container-fluid {
+    margin : 0px;
+    padding: 0px;
+}
+
+.top-area p {
+    padding-top: 10px;
+} 
+
+ .navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.top-area {
+    background-color: rgb(241, 241, 241);
+    padding: 5px;
+}
+
+
+
+/* ============================================================================
+   Promo
+   ============================================================================ */
+
+.promo {
+    height: auto;
+    padding: 30px;
+    background-color: #172832;
+}
+
+.promo img {
+    float: right;
+    max-width: 100%;
+}
+
+.promo h1 {
+    color: #fff;
+    font-size: 34px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    max-width: 100%;
+}
+
+.promo p {
+    color: #5daad0;
+    font-size: 20px;
+    margin-bottom: 50px;
+    max-width: 100%;
+}
+
+
+/* ============================================================================
+   Promo-alt
+   ============================================================================ */
+
+ .promo-alt {
+    height: 400px;
+    padding: 0 0 0 30px;
+    background-color: #f6f6f6;
+}
+
+/* ---- promo1 ----*/
+
+.promo1 {
+    width: 65%;
+    height: 100%;
+    float: left;
+    position: relative;
+}
+
+.promo1 h1 {
+    color: #2e373f;
+    font-size: 28px;
+    padding-top: 35px;
+    margin-bottom: 16px;
+}
+
+.promo1 p {
+    color: #9dbb6f;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.promo1 span.bold {
+    font-weight: bold;
+}
+
+.promo1 img {
+    position: absolute;
+    top: 3%;
+    left: 3%;
+}
+
+/* --- promo2 ---*/
+
+.promo2 {
+    float: right;
+    text-align: left;
+    width: 34%;
+    position: relative;
+    height: 160px;
+    border-bottom: 1px dotted #000;
+    border-left: 1px dotted #000;
+}
+
+.promo2 h2 {
+    color: #2e373f;
+    font-size: 16px;
+    margin: 20px 0 30px 20px;
+}
+
+.promo2 a:link, #promo2 a:visited {
+    color: #5daad0;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.promo2 img {
+    position: absolute;
+    top: 19%;
+    left: 65%;
+}
+
+.promo2 a img {
+    position: inherit;
+}
+
+/* --- promo3 ---- */
+
+.promo3 {
+    float: right;
+    text-align: left;
+    position: relative;
+    width: 34%;
+    height: 240px;
+    background-color: #2e373f;
+}
+
+.promo3 img {
+    margin-top: 20px;
+}
+
+.promo3 a img {
+    margin-top: 0;
+}
+
+.promo3 h2 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    color: #fff;
+    font-size: 16px;
+}
+
+.promo3 a:link{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #5daad0;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    border:  red solid 1px;
+    padding-left: 0;
+    
+}
+footer ul li {
+    right: 50px;
+}
